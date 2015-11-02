@@ -153,7 +153,7 @@ void draw() {
   if(l > 190){
     l = 190;
   }
-  enemyx+=4;
+  enemyx+=10;
 }
 void keyPressed(){
   
