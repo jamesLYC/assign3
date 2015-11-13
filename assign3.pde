@@ -128,17 +128,17 @@ void draw() {
   if(rightPressed){
     fighterx += speed;
   }
-  if (fighterx > width ){
-    fighterx = 0;
+ if (fighterx > 589 ){
+    fighterx = 589;
   }
   if (fighterx < 0){
-    fighterx = width;
+    fighterx = 0;
   }
-  if (fightery > height){
-    fightery = 0;
+  if (fightery > 429){
+    fightery = 429;
   }
   if (fightery < 0){
-   fightery = height;
+   fightery = 0;
   }
   if(m > 640){
     m = 0;
